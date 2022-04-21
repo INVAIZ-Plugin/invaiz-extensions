@@ -1,1 +1,469 @@
-function evalFiles(_0x233305){var _0x5c9f41=_0x2f7d;var _0x1353c7={'cNxqr':function(_0x314175,_0x144ccb){return _0x314175<_0x144ccb;},'KdksR':_0x5c9f41(0x0)};var _0x5d95f8=new Folder(_0x233305);if(_0x5d95f8['exists']){var _0xcd4be2=_0x5d95f8[_0x5c9f41(0x1)](_0x5c9f41(0x2));for(var _0x3d8686=0x0;_0x1353c7[_0x5c9f41(0x3)](_0x3d8686,_0xcd4be2[_0x5c9f41(0x4)]);_0x3d8686++){var _0x67b126=_0xcd4be2[_0x3d8686];try{$[_0x5c9f41(0x5)](_0x67b126);}catch(_0x30a5ea){return _0x1353c7[_0x5c9f41(0x6)]+_0x30a5ea;}}}}function modifyBrushSize(_0x3ceb97){var _0x5109d1=_0x2f7d;var _0x302539={'UxMYF':'diameter'};return _brush[_0x5109d1(0x7)](_0x302539[_0x5109d1(0x8)],_0x3ceb97);}function modifyBrushMode(_0x51c81f){var _0x262949=_0x2f7d;return _brush[_0x262949(0x9)](_0x51c81f);}function modifyBrushOpacity(_0x57cf67){var _0x2ae421=_0x2f7d;var _0x225e51={'wFjEF':_0x2ae421(0xa)};return _brush['modifyBrush'](_0x225e51[_0x2ae421(0xb)],_0x57cf67);}function modifyBrushHardness(_0x29deca){var _0xa3d89a=_0x2f7d;var _0x35ab72={'zFLTX':_0xa3d89a(0xc)};return _brush[_0xa3d89a(0x7)](_0x35ab72[_0xa3d89a(0xd)],_0x29deca);}function modifyBrushAngle(_0x3e8473){var _0x267dd2=_0x2f7d;var _0x3bfed6={'VbDxf':_0x267dd2(0xe)};return _brush['modifyBrush'](_0x3bfed6[_0x267dd2(0xf)],_0x3e8473);}function modifyBrushFlow(_0x405bc9){var _0x2d9707=_0x2f7d;var _0x228f32={'xpsDP':'flow'};return _brush[_0x2d9707(0x7)](_0x228f32[_0x2d9707(0x10)],_0x405bc9);}function modifyBrushSmooth(_0x1a7239){var _0x2ef157=_0x2f7d;var _0x3f4eec={'swAta':'smooth'};return _brush[_0x2ef157(0x7)](_0x3f4eec[_0x2ef157(0x11)],_0x1a7239);}function modifyBrushPressure(_0x3e9e37){var _0x21008a=_0x2f7d;return _brush[_0x21008a(0x7)](_0x21008a(0x12),_0x3e9e37);}function modifyBrushRoundness(_0x3fe88e){var _0x34fd8e=_0x2f7d;var _0x2cc661={'ZDlOD':'roundness'};return _brush[_0x34fd8e(0x7)](_0x2cc661['ZDlOD'],_0x3fe88e);}function modifyBrushSpacing(_0x15006c){var _0x335d5b=_0x2f7d;var _0x5f34b0={'IaGyG':_0x335d5b(0x13)};return _brush[_0x335d5b(0x7)](_0x5f34b0[_0x335d5b(0x14)],_0x15006c);}function forecolorH(_0x4ad7f0){var _0x3c23c5=_0x2f7d;return _color[_0x3c23c5(0x15)](_0x4ad7f0,!![],'h');}function forecolorS(_0x2a11fe){return _color['colorAdjustment'](_0x2a11fe,!![],'s');}function forecolorB(_0x3db53a){var _0x30c5f7=_0x2f7d;return _color[_0x30c5f7(0x15)](_0x3db53a,!![],'b');}function backcolorH(_0x2c69f7){var _0x8b6c8b=_0x2f7d;return _color[_0x8b6c8b(0x15)](_0x2c69f7,![],'h');}function backcolorS(_0x24bdc5){var _0x39ea5d=_0x2f7d;return _color[_0x39ea5d(0x15)](_0x24bdc5,![],'s');}function backcolorB(_0x308a95){var _0x5719e4=_0x2f7d;return _color[_0x5719e4(0x15)](_0x308a95,![],'b');}function setTool(_0x3a4f78){var _0x45c3b9=_0x2f7d;return _general[_0x45c3b9(0x16)](_0x3a4f78);}function exportAsFile(){return _general['exportAsFile']();}function selectTool(_0x4fb107){var _0x4ebd58=_0x2f7d;return _general[_0x4ebd58(0x17)](_0x4fb107);}function exportAsLayer(){var _0x45e296=_0x2f7d;return _general[_0x45e296(0x18)]();}function zoomInOut(_0x5f0bfe){var _0x4e43c8=_0x2f7d;var _0x37c171={'jySvK':function(_0x13bc98,_0x4e9cdb){return _0x13bc98*_0x4e9cdb;}};return _zoom[_0x4e43c8(0x19)](_0x37c171[_0x4e43c8(0x1a)](_0x5f0bfe,0x2));}function createLayer(){return _layers['createLayer']();}function groupLayers(){var _0x2e3b84=_0x2f7d;return _layers[_0x2e3b84(0x1b)]();}function moveLayer(_0x86fe30){return _layers['moveLayer'](_0x86fe30);}function copyMerge(){return _layers['copyMerge']();}function selectLayer(_0x2c4be9){return _layers['selectLayer'](_0x2c4be9);}function setLayerOpacity(_0x342b6d){var _0x545fda=_0x2f7d;return _layers[_0x545fda(0x1c)](_0x342b6d);}function allLayerHide(){return _layers['isolateLayer']();}function copyLayer(){var _0x44c27c=_0x2f7d;return _layers[_0x44c27c(0x1d)]();}function mergeDown(){var _0x165e0a=_0x2f7d;return _layers[_0x165e0a(0x1e)]();}function copyMergeVisible(){var _0x58d9da=_0x2f7d;return _layers[_0x58d9da(0x1f)]();}function layerVisibleToggle(){var _0x343b20=_0x2f7d;return _layers[_0x343b20(0x20)]();}function clippingMask(){return _layers['clippingMaskToggle']();}function createLayerMask(_0x459986){return _layers['createLayerMask'](_0x459986);}function setLayerFill(_0x36ec64){var _0x9d9d1a=_0x2f7d;return _layers[_0x9d9d1a(0x21)](_0x36ec64);}function setFill(_0x459f64){var _0x19e86c=_0x2f7d;return _layers[_0x19e86c(0x22)](_0x459f64);}function changeBlendMode(_0x33d1f8){var _0x21a640=_0x2f7d;return _layers[_0x21a640(0x23)](_0x33d1f8);}function rotateLayer(){return _layers['layerRotate']();}function deleteLayer(){var _0x3bd7e8=_0x2f7d;return _layers[_0x3bd7e8(0x24)]();}function smartObjectToggle(){return _layers['smartObjectToggle']();}function layerAdustmentAngle(_0x80c323){return _layers['layerAdustmentAngle'](_0x80c323);}function _0xdde9(){var _0x37c756=['Exception\x20','getFiles','*.jsxbin','cNxqr','length','evalFile','KdksR','modifyBrush','UxMYF','changeBrushMode','opacity','wFjEF','hardness','zFLTX','angle','VbDxf','xpsDP','swAta','pressure','spacing','IaGyG','colorAdjustment','setTool','selectTool','exportAsLayer','zoomInOut','jySvK','groupLayers','setLayerOpacity','duplicate','mergeDown','copyMergeVisible','layerVisibleToggle','setLayerFillTest','setFill','changeBlendMode','deleteLayer','applyStroke','activateFreeTransform','saveFile','adjust','create','setHistoryState','bniKC','modifyFilter','createLayer','toggleLayer','cDrva','selectPrevayer','selectNextLayer','backToLayer','movePathItem','selectPathItem','modifyTextSize','modifyTextSpacing','modifyTextLeading','modifyTextAngle','modifyStorkeSize','modifyVerticalScale','modifyHorizontalScale','modifyResize','modifyStrokeOpacity','selectAreaRotate','expandStyleObject','ungroupObjet','filpHorizontal','filpVertical','duplicateHorizontal','duplicateVertical','JEggE','redo','undo','createArtBoard','saveAsfile','exportAs','createMask','newWindow','duplicateLayer','ADBE\x20Scale','ADBE\x20Scale\x20X','adjustTransformParameter','nvdiF','ADBE\x20Scale\x20Y','ADBE\x20Scale\x20Z','SlXAM','ADBE\x20Anchor\x20Point\x20X','jyrGM','YaJbK','IGKqL','ADBE\x20Rotate\x20Y','ADBE\x20Rotate\x20Z','RTKNe','ADBE\x20Position\x20X','CATOC','SJqjx','ADBE\x20Position\x20Z','VPjsz','ADBE\x20Orientation\x20Z','ADBE\x20Opacity','hSnyI','modifyLightOpction','layerSwitch','selectLayer','startPoint','addEffectToSelectedLayers','modifyLumetriColor','visibleLayer','createSpread','modifyStrokeSize','modifyStrokeTint','modifyStrokeHorizontalScale','modifyStrokeVerticalScale','modifyLumetri','kbDrW','payload','modifyTimeline','typeKey','modifyMotion','modifyOpacity','fXQDj'];_0xdde9=function(){return _0x37c756;};return _0xdde9();}function applyStroke(){var _0x23b718=_0x2f7d;return _general[_0x23b718(0x25)]();}function activateFreeTransform(){var _0x55cfa3=_0x2f7d;return _general[_0x55cfa3(0x26)]();}function saveFile(){var _0x5a2550=_0x2f7d;return _general[_0x5a2550(0x27)]();}function adjustmentLayerAdjust(_0x597490,_0x4a708e){var _0x14726b=_0x2f7d;return _adjustmentLayers[_0x14726b(0x28)](_0x597490,_0x4a708e);}function createAdjustmentLayer(_0x49d6f6){var _0x65bf9=_0x2f7d;return _adjustmentLayers[_0x65bf9(0x29)](_0x49d6f6);}function undo(){var _0x3d3b18=_0x2f7d;return _general[_0x3d3b18(0x2a)](0x1);}function redo(){return _general['setHistoryState'](-0x1);}function undoRedo(_0x58c309){var _0x293b60=_0x2f7d;var _0x4c2b31={'bniKC':function(_0x16c826,_0x23354a){return _0x16c826>_0x23354a;}};if(_0x4c2b31[_0x293b60(0x2b)](_0x58c309,0x0))return _general[_0x293b60(0x2a)](-0x1);else return _general[_0x293b60(0x2a)](0x1);}function modifySmartFilter(_0x18a645,_0xeaa79d){var _0x4bcdb2=_0x2f7d;return _filters[_0x4bcdb2(0x2c)](_0xeaa79d,_0x18a645);}function smartfilterCreate(_0x47449d){var _0x2ce21a=_0x2f7d;return _filters[_0x2ce21a(0x29)](_0x47449d);}function Ai_ZoomInOut(_0x5228ff){var _0x5ea189=_0x2f7d;return AiZoom[_0x5ea189(0x19)](_0x5228ff);}function Ai_CreateLayer(){var _0x4ff25f=_0x2f7d;return AiLayer[_0x4ff25f(0x2d)]();}function _0x2f7d(_0xdde9d4,_0x2f7dc1){var _0x12d366=_0xdde9();_0x2f7d=function(_0x1906c2,_0x3ce7bb){_0x1906c2=_0x1906c2-0x0;var _0x3cf5cc=_0x12d366[_0x1906c2];return _0x3cf5cc;};return _0x2f7d(_0xdde9d4,_0x2f7dc1);}function Ai_DeleteLayer(){var _0x22c18c=_0x2f7d;return AiLayer[_0x22c18c(0x24)]();}function Ai_DeleteEmptyLayer(){return AiLayer['deleteEmptyLayer']();}function Ai_ToggleLayer(){var _0x6cac1e=_0x2f7d;return AiLayer[_0x6cac1e(0x2e)]();}function Ai_SetLayerOpacity(_0x22d74d){var _0x56b4cb=_0x2f7d;return AiLayer[_0x56b4cb(0x1c)](_0x22d74d);}function Ai_SelectLayer(_0x2e36a9){var _0x8a8cc0=_0x2f7d;var _0x5cbdc8={'cDrva':function(_0x330f38,_0x57510e){return _0x330f38>_0x57510e;}};if(_0x5cbdc8[_0x8a8cc0(0x2f)](_0x2e36a9,0x0))return AiLayer[_0x8a8cc0(0x30)]();else return AiLayer[_0x8a8cc0(0x31)]();}function Ai_MoverLayer(_0x5881ed){return AiLayer['moveLayer'](_0x5881ed);}function Ai_BackToLayer(){var _0x423a7d=_0x2f7d;return AiLayer[_0x423a7d(0x32)]();}function Ai_FrontToLayer(){return AiLayer['frontToLayer']();}function Ai_MovePathItem(_0x5ed51b){var _0x1594df=_0x2f7d;return AiLayer[_0x1594df(0x33)](_0x5ed51b);}function Ai_SelectPathItem(_0x2914a7){var _0x4aba82=_0x2f7d;return AiLayer[_0x4aba82(0x34)](_0x2914a7);}function Ai_ModifyTextSize(_0x2ce2c8){var _0x1b4817=_0x2f7d;return AiText[_0x1b4817(0x35)](_0x2ce2c8);}function Ai_ModifyTextFontChange(_0x2b02d4){return AiText['modifyTextFont'](_0x2b02d4);}function Ai_ModifyTextSpacing(_0x3d539a){var _0x5c516c=_0x2f7d;return AiText[_0x5c516c(0x36)](_0x3d539a);}function Ai_ModifyTextLeading(_0x187e5f){var _0x1258b7=_0x2f7d;return AiText[_0x1258b7(0x37)](_0x187e5f);}function Ai_ModifyTextAngle(_0x86ea95){var _0x567ce2=_0x2f7d;return AiText[_0x567ce2(0x38)](_0x86ea95);}function Ai_ModifyStroke(_0x2784bb){var _0x3f2ddf=_0x2f7d;return AiObject[_0x3f2ddf(0x39)](_0x2784bb);}function Ai_ModifyVerticalScale(_0x3c4a0a){var _0x4c6af0=_0x2f7d;return AiObject[_0x4c6af0(0x3a)](_0x3c4a0a);}function Ai_ModifyHorizontalScale(_0x8f7f7b){var _0x251e33=_0x2f7d;return AiObject[_0x251e33(0x3b)](_0x8f7f7b);}function Ai_ModifyResize(_0x39525d){var _0x506a56=_0x2f7d;return AiObject[_0x506a56(0x3c)](_0x39525d);}function Ai_ModifyStrokeOpacity(_0x32b28f){var _0xa12531=_0x2f7d;return AiObject[_0xa12531(0x3d)](_0x32b28f);}function Ai_RotateObject(_0x3e8763){var _0x455f46=_0x2f7d;return AiObject[_0x455f46(0x3e)](_0x3e8763);}function Ai_LockObject(){return AiObject['lockObject']();}function Ai_ExpandStyleObject(){return AiObject['expandStyleObject']();}function Ai_ExpandObject(){return AiObject['expandObject']();}function Ai_ExpandStyleObject(){var _0x288a08=_0x2f7d;return AiObject[_0x288a08(0x3f)]();}function Ai_GroupObject(){return AiObject['groupObject']();}function Ai_UnGroupObject(){var _0x1c9298=_0x2f7d;return AiObject[_0x1c9298(0x40)]();}function Ai_FilpHorizontal(){var _0x1ba9dc=_0x2f7d;return AiObject[_0x1ba9dc(0x41)]();}function Ai_FilpVertical(){var _0x4312fb=_0x2f7d;return AiObject[_0x4312fb(0x42)]();}function Ai_DuplicateFilpHorizontal(){var _0x30e2ec=_0x2f7d;return AiObject[_0x30e2ec(0x43)]();}function Ai_DuplicateFilpVertical(){var _0x3e65c9=_0x2f7d;return AiObject[_0x3e65c9(0x44)]();}function Ai_History(_0xe81c5b){var _0x65f7fa=_0x2f7d;var _0x5a96de={'JEggE':function(_0x1355e1,_0x1e232a){return _0x1355e1>_0x1e232a;}};if(_0x5a96de[_0x65f7fa(0x45)](_0xe81c5b,0x0))return AiGeneral[_0x65f7fa(0x46)]();else return AiGeneral[_0x65f7fa(0x47)]();}function Ai_Undo(){var _0x8f2a10=_0x2f7d;return AiGeneral[_0x8f2a10(0x47)]();}function Ai_Redo(){var _0x159d05=_0x2f7d;return AiGeneral[_0x159d05(0x46)]();}function Ai_CreateArtboard(){var _0x2a8707=_0x2f7d;return AiArtboard[_0x2a8707(0x48)]();}function Ai_SelectArtboard(_0x4e65a5){return AiArtboard['selectedArtBoard'](_0x4e65a5);}function Ai_DeleteArtboard(){return AiArtboard['deleteArtBoard']();}function Ai_Save(){var _0x6e651a=_0x2f7d;return AiGeneral[_0x6e651a(0x27)]();}function Ai_Saveas(){var _0x2539ee=_0x2f7d;return AiGeneral[_0x2539ee(0x49)]();}function Ai_Export(){var _0x465719=_0x2f7d;return AiGeneral[_0x465719(0x4a)]();}function Ai_CreateMask(){var _0x2ce954=_0x2f7d;return AiGeneral[_0x2ce954(0x4b)]();}function Ai_NewWindow(){var _0x3c4a57=_0x2f7d;return AiGeneral[_0x3c4a57(0x4c)]();}function AF_Settool(_0x6ad0ab){var _0xb5ec0c=_0x2f7d;return AeGeneral[_0xb5ec0c(0x16)](_0x6ad0ab);}function AF_DuplicateLayer(){var _0x4fe026=_0x2f7d;return AeMoveLayers[_0x4fe026(0x4d)]();}function AF_DelteLayer(){var _0x5d228d=_0x2f7d;return AeMoveLayers[_0x5d228d(0x24)]();}function AF_ModifyLayerScale(_0x3d4e68){var _0x1d1c39=_0x2f7d;return AeModifyTransform['adjustTransformParameter'](_0x1d1c39(0x4e),_0x3d4e68);}function AF_ModifyLayerScaleX(_0x977d7){var _0x3a86c5=_0x2f7d;var _0x31d753={'nvdiF':_0x3a86c5(0x4f)};return AeModifyTransform[_0x3a86c5(0x50)](_0x31d753[_0x3a86c5(0x51)],_0x977d7);}function AF_ModifyLayerScaleY(_0x252e34){var _0x120551=_0x2f7d;return AeModifyTransform[_0x120551(0x50)](_0x120551(0x52),_0x252e34);}function AF_ModifyLayerScaleZ(_0x16ee58){var _0x5db2d5=_0x2f7d;var _0x3ed944={'SlXAM':_0x5db2d5(0x53)};return AeModifyTransform[_0x5db2d5(0x50)](_0x3ed944[_0x5db2d5(0x54)],_0x16ee58);}function AF_ModifyLayerAnchorPointX(_0x341b85){var _0x569843=_0x2f7d;var _0x1a646a={'jyrGM':_0x569843(0x55)};return AeModifyTransform['adjustTransformParameter'](_0x1a646a[_0x569843(0x56)],_0x341b85);}function AF_ModifyLayerAnchorPointY(_0x2824e8){var _0x2ae0cb=_0x2f7d;var _0x472ba4={'YaJbK':'ADBE\x20Anchor\x20Point\x20Y'};return AeModifyTransform[_0x2ae0cb(0x50)](_0x472ba4[_0x2ae0cb(0x57)],_0x2824e8);}function AF_ModifyLayerAnchorPointZ(_0xf373d5){var _0x5b38a7=_0x2f7d;var _0x16e357={'IGKqL':'ADBE\x20Anchor\x20Point\x20Z'};return AeModifyTransform[_0x5b38a7(0x50)](_0x16e357[_0x5b38a7(0x58)],_0xf373d5);}function AF_ModifyLayerRotateX(_0x360604){var _0x151922={'Ekebx':'ADBE\x20Rotate\x20X'};return AeModifyTransform['adjustTransformParameter'](_0x151922['Ekebx'],_0x360604);}function AF_ModifyLayerRotateY(_0x342b26){var _0x50de2a=_0x2f7d;return AeModifyTransform['adjustTransformParameter'](_0x50de2a(0x59),_0x342b26);}function AF_ModifyLayerRotateZ(_0x18787d){var _0x41a7e0=_0x2f7d;var _0x3abe23={'RTKNe':_0x41a7e0(0x5a)};return AeModifyTransform['adjustTransformParameter'](_0x3abe23[_0x41a7e0(0x5b)],_0x18787d);}function AF_ModifyLayerPositionX(_0x51ffc3){var _0x18fccc=_0x2f7d;var _0x56a596={'CATOC':_0x18fccc(0x5c)};return AeModifyTransform[_0x18fccc(0x50)](_0x56a596[_0x18fccc(0x5d)],_0x51ffc3);}function AF_ModifyLayerPositionY(_0x1d9d5d){var _0x4e7c7c=_0x2f7d;var _0x5db36e={'SJqjx':'ADBE\x20Position\x20Y'};return AeModifyTransform['adjustTransformParameter'](_0x5db36e[_0x4e7c7c(0x5e)],_0x1d9d5d);}function AF_ModifyLayerPositionZ(_0x4b8cd9){var _0x5eb056=_0x2f7d;return AeModifyTransform[_0x5eb056(0x50)](_0x5eb056(0x5f),_0x4b8cd9);}function AF_ModifyLayerOrientationX(_0x360a98){var _0x3244cb=_0x2f7d;return AeModifyTransform[_0x3244cb(0x50)]('ADBE\x20Orientation\x20X',_0x360a98);}function AF_ModifyLayerOrientationY(_0x5db36f){var _0x2d2a8e=_0x2f7d;var _0x31e6d0={'VPjsz':'ADBE\x20Orientation\x20Y'};return AeModifyTransform[_0x2d2a8e(0x50)](_0x31e6d0[_0x2d2a8e(0x60)],_0x5db36f);}function AF_ModifyLayerOrientationZ(_0x4ccfa3){var _0x594d5c=_0x2f7d;return AeModifyTransform[_0x594d5c(0x50)](_0x594d5c(0x61),_0x4ccfa3);}function AF_ModifyLayerOpacity(_0x1c84e2){var _0x3c7a04=_0x2f7d;var _0x4ecd62={'hSnyI':_0x3c7a04(0x62)};return AeModifyTransform[_0x3c7a04(0x50)](_0x4ecd62[_0x3c7a04(0x63)],_0x1c84e2);}function AF_ModifyCameraOption(_0x3f3305,_0x1af259){return AeModifyCamera['modifyCameraOpction'](_0x3f3305,_0x1af259);}function AF_ModifyLightOption(_0x52d503,_0x4c075e){var _0x37ee80=_0x2f7d;return AeModifyLight[_0x37ee80(0x64)](_0x52d503,_0x4c075e);}function AF_ToggleLayer(_0x58e410){var _0x45aa6a=_0x2f7d;return AeToggle[_0x45aa6a(0x65)](_0x58e410);}function AF_SelectedLayer(_0x30b719){var _0x4cee97=_0x2f7d;return AeSelctedLayer[_0x4cee97(0x66)](_0x30b719);}function AF_MoveLayer(_0x21a414){var _0x3a27a6=_0x2f7d;return AeMoveLayer[_0x3a27a6(0x67)](_0x21a414);}function AF_AddEffects(_0x5a66ed){var _0x5e574d=_0x2f7d;return AeAddEffect[_0x5e574d(0x68)](_0x5a66ed);}function AF_ModifyLumetriColors(_0x2d1b5f,_0x475116){var _0x1fbb4f=_0x2f7d;return AeLumetriColor[_0x1fbb4f(0x69)](_0x2d1b5f,_0x475116);}function Id_SetTool(_0x15eeb4){return IdGeneral['setTool'](_0x15eeb4);}function Id_CreateLayer(){var _0x4c2bb9=_0x2f7d;return IdLayer[_0x4c2bb9(0x2d)]();}function Id_DeleteLayer(){var _0x33b4d7=_0x2f7d;return IdLayer[_0x33b4d7(0x24)]();}function Id_LockLayer(){return IdLayer['lockLayer']();}function Id_DuplicateLayer(){return IdLayer['duplicateLayer']();}function Id_VisibleLayer(){var _0x292fb0=_0x2f7d;return IdLayer[_0x292fb0(0x6a)]();}function Id_SelectLayer(_0x5c864e){var _0x1228c3=_0x2f7d;return IdLayer[_0x1228c3(0x66)](_0x5c864e);}function Id_ModifyTextSize(_0x7e80a4){var _0x3d2306=_0x2f7d;return IdText[_0x3d2306(0x35)](_0x7e80a4);}function Id_ModifyTextSpacing(_0x28cd85){var _0x2ccd8e=_0x2f7d;return IdText[_0x2ccd8e(0x36)](_0x28cd85);}function Id_ModifyTextLeading(_0x1a6405){return IdText['modifyTextLeading'](_0x1a6405);}function Id_ZoomInOut(_0x50897c){return IdSpread['zoomInOut'](_0x50897c);}function Id_CreateSpread(){var _0x1bf320=_0x2f7d;return IdSpread[_0x1bf320(0x6b)]();}function Id_ModifyStrokeSize(_0x2c2ff0){var _0xd1cba3=_0x2f7d;return IdObject[_0xd1cba3(0x6c)](_0x2c2ff0);}function Id_ModifyStrokeTint(_0x2ae438){var _0x17bafe=_0x2f7d;return IdObject[_0x17bafe(0x6d)](_0x2ae438);}function Id_ModifyStrokeHorizontalScale(_0x4c57dd){var _0x1c48d1=_0x2f7d;return IdObject[_0x1c48d1(0x6e)](_0x4c57dd);}function Id_ModifyStrokeVerticalScale(_0xe02248){var _0x52e4a6=_0x2f7d;return IdObject[_0x52e4a6(0x6f)](_0xe02248);}function Pr_ModifyLumetri(_0x1565c3){var _0x1c14ac=_0x2f7d;var _0x4765b8={'WUnSf':function(_0x4effb7,_0x498569){return _0x4effb7(_0x498569);},'kbDrW':function(_0x22eb08,_0x5ab60c){return _0x22eb08(_0x5ab60c);}};var _0x2eddb8=_0x1565c3['typeKey'];return PrLumetri[_0x1c14ac(0x70)](_0x4765b8['WUnSf'](parseInt,_0x2eddb8),_0x4765b8[_0x1c14ac(0x71)](parseInt,_0x1565c3[_0x1c14ac(0x72)]));}function Pr_ModifyTimeline(_0x1a225f){var _0x105adc=_0x2f7d;return PrTimeline[_0x105adc(0x73)](_0x1a225f);}function Pr_ModifyMotion(_0x387511){var _0x48c23c=_0x2f7d;var _0x476fa7=_0x387511[_0x48c23c(0x74)];var _0x59625d=_0x476fa7['split'](',');return PrMotion[_0x48c23c(0x75)](_0x59625d[0x0],_0x59625d[0x1],parseInt(_0x387511[_0x48c23c(0x72)]));}function Pr_ModifyOpacity(_0x14d79f){var _0x2a2708=_0x2f7d;var _0x3204bd={'fXQDj':function(_0xdb77df,_0x5e99dc){return _0xdb77df(_0x5e99dc);}};return PrOpacity[_0x2a2708(0x76)](0x0,_0x3204bd[_0x2a2708(0x77)](parseInt,_0x14d79f[_0x2a2708(0x72)]));}
+function evalFiles(jsxFolderPath) {
+  var folder = new Folder(jsxFolderPath);
+  if (folder.exists) {
+    var jsxFiles = folder.getFiles("*.jsxbin");
+    for (var i = 0; i < jsxFiles.length; i++) {
+      var jsxFile = jsxFiles[i];
+      try {
+        $.evalFile(jsxFile);
+      } catch (e) {
+        return "Exception " + e;
+      }
+    }
+  }
+}
+
+//Photoshop
+
+function modifyBrushSize(payload) {
+  return _brush.modifyBrush("diameter", payload);
+}
+function modifyBrushMode(payload) {
+  return _brush.changeBrushMode(payload);
+}
+function modifyBrushOpacity(payload) {
+  return _brush.modifyBrush("opacity", payload);
+}
+function modifyBrushHardness(payload) {
+  return _brush.modifyBrush("hardness", payload);
+}
+function modifyBrushAngle(payload) {
+  return _brush.modifyBrush("angle", payload);
+}
+function modifyBrushFlow(payload) {
+  return _brush.modifyBrush("flow", payload);
+}
+function modifyBrushSmooth(payload) {
+  return _brush.modifyBrush("smooth", payload);
+}
+function modifyBrushPressure(payload) {
+  return _brush.modifyBrush("pressure", payload);
+}
+function modifyBrushRoundness(payload) {
+  return _brush.modifyBrush("roundness", payload);
+}
+function modifyBrushSpacing(payload) {
+  return _brush.modifyBrush("spacing", payload);
+}
+function forecolorH(payload) {
+  return _color.colorAdjustment(payload, true, "h");
+}
+function forecolorS(payload) {
+  return _color.colorAdjustment(payload, true, "s");
+}
+function forecolorB(payload) {
+  return _color.colorAdjustment(payload, true, "b");
+}
+function backcolorH(payload) {
+  return _color.colorAdjustment(payload, false, "h");
+}
+function backcolorS(payload) {
+  return _color.colorAdjustment(payload, false, "s");
+}
+function backcolorB(payload) {
+  return _color.colorAdjustment(payload, false, "b");
+}
+function setTool(payload) {
+  return _general.setTool(payload);
+}
+function exportAsFile() {
+  return _general.exportAsFile();
+}
+function selectTool(payload) {
+  return _general.selectTool(payload);
+}
+function exportAsLayer() {
+  return _general.exportAsLayer();
+}
+function zoomInOut(payload) {
+  return _zoom.zoomInOut(payload * 2);
+}
+function createLayer() {
+  return _layers.createLayer();
+}
+function groupLayers() {
+  return _layers.groupLayers();
+}
+function moveLayer(payload) {
+  return _layers.moveLayer(payload);
+}
+function copyMerge() {
+  return _layers.copyMerge();
+}
+function selectLayer(payload) {
+  return _layers.selectLayer(payload);
+}
+function setLayerOpacity(payload) {
+  return _layers.setLayerOpacity(payload);
+}
+function allLayerHide() {
+  return _layers.isolateLayer();
+}
+function copyLayer() {
+  return _layers.duplicate();
+}
+function mergeDown() {
+  return _layers.mergeDown();
+}
+function copyMergeVisible() {
+  return _layers.copyMergeVisible();
+}
+function layerVisibleToggle() {
+  return _layers.layerVisibleToggle();
+}
+function clippingMask() {
+  return _layers.clippingMaskToggle();
+}
+function createLayerMask(payload) {
+  return _layers.createLayerMask(payload);
+}
+function setLayerFill(payload) {
+  return _layers.setLayerFillTest(payload);
+}
+function setFill(payload) {
+  return _layers.setFill(payload);
+}
+function changeBlendMode(payload) {
+  return _layers.changeBlendMode(payload);
+}
+function rotateLayer() {
+  return _layers.layerRotate();
+}
+function deleteLayer() {
+  return _layers.deleteLayer();
+}
+function smartObjectToggle() {
+  return _layers.smartObjectToggle();
+}
+function layerAdustmentAngle(payload) {
+  return _layers.layerAdustmentAngle(payload);
+}
+function applyStroke() {
+  return _general.applyStroke();
+}
+function activateFreeTransform() {
+  return _general.activateFreeTransform();
+}
+function saveFile() {
+  return _general.saveFile();
+}
+function adjustmentLayerAdjust(payload, diff) {
+  return _adjustmentLayers.adjust(payload, diff);
+}
+function createAdjustmentLayer(payload) {
+  return _adjustmentLayers.create(payload);
+}
+function undo() {
+  return _general.setHistoryState(1);
+}
+function redo() {
+  return _general.setHistoryState(-1);
+}
+function undoRedo(payload) {
+  if (payload > 0) return _general.setHistoryState(-1);
+  else return _general.setHistoryState(1);
+}
+function modifySmartFilter(payload, diff) {
+  return _filters.modifyFilter(diff, payload);
+}
+function smartfilterCreate(payload) {
+  return _filters.create(payload);
+}
+
+//Illustrator
+
+function Ai_ZoomInOut(payload) {
+  return AiZoom.zoomInOut(payload);
+}
+function Ai_CreateLayer() {
+  return AiLayer.createLayer();
+}
+function Ai_DeleteLayer() {
+  return AiLayer.deleteLayer();
+}
+function Ai_DeleteEmptyLayer() {
+  return AiLayer.deleteEmptyLayer();
+}
+function Ai_ToggleLayer() {
+  return AiLayer.toggleLayer();
+}
+function Ai_SetLayerOpacity(payload) {
+  return AiLayer.setLayerOpacity(payload);
+}
+function Ai_SelectLayer(payload) {
+  if (payload > 0) return AiLayer.selectPrevayer();
+  else return AiLayer.selectNextLayer();
+}
+function Ai_MoverLayer(payload) {
+  return AiLayer.moveLayer(payload);
+}
+function Ai_BackToLayer() {
+  return AiLayer.backToLayer();
+}
+function Ai_FrontToLayer() {
+  return AiLayer.frontToLayer();
+}
+function Ai_MovePathItem(payload) {
+  return AiLayer.movePathItem(payload);
+}
+function Ai_SelectPathItem(payload) {
+  return AiLayer.selectPathItem(payload);
+}
+function Ai_ModifyTextSize(payload) {
+  return AiText.modifyTextSize(payload);
+}
+function Ai_ModifyTextFontChange(payload) {
+  return AiText.modifyTextFont(payload);
+}
+function Ai_ModifyTextSpacing(payload) {
+  return AiText.modifyTextSpacing(payload);
+}
+function Ai_ModifyTextLeading(payload) {
+  return AiText.modifyTextLeading(payload);
+}
+function Ai_ModifyTextAngle(payload) {
+  return AiText.modifyTextAngle(payload);
+}
+function Ai_ModifyStroke(payload) {
+  return AiObject.modifyStorkeSize(payload);
+}
+function Ai_ModifyVerticalScale(payload) {
+  return AiObject.modifyVerticalScale(payload);
+}
+function Ai_ModifyHorizontalScale(payload) {
+  return AiObject.modifyHorizontalScale(payload);
+}
+function Ai_ModifyResize(payload) {
+  return AiObject.modifyResize(payload);
+}
+function Ai_ModifyStrokeOpacity(payload) {
+  return AiObject.modifyStrokeOpacity(payload);
+}
+function Ai_RotateObject(payload) {
+  return AiObject.selectAreaRotate(payload);
+}
+function Ai_LockObject() {
+  return AiObject.lockObject();
+}
+function Ai_ExpandStyleObject() {
+  return AiObject.expandStyleObject();
+}
+function Ai_ExpandObject() {
+  return AiObject.expandObject();
+}
+function Ai_ExpandStyleObject() {
+  return AiObject.expandStyleObject();
+}
+function Ai_GroupObject() {
+  return AiObject.groupObject();
+}
+function Ai_UnGroupObject() {
+  return AiObject.ungroupObjet();
+}
+function Ai_FilpHorizontal() {
+  return AiObject.filpHorizontal();
+}
+function Ai_FilpVertical() {
+  return AiObject.filpVertical();
+}
+function Ai_DuplicateFilpHorizontal() {
+  return AiObject.duplicateHorizontal();
+}
+function Ai_DuplicateFilpVertical() {
+  return AiObject.duplicateVertical();
+}
+function Ai_History(payload) {
+  if (payload > 0) return AiGeneral.redo();
+  else return AiGeneral.undo();
+}
+function Ai_Undo() {
+  return AiGeneral.undo();
+}
+function Ai_Redo() {
+  return AiGeneral.redo();
+}
+function Ai_CreateArtboard() {
+  return AiArtboard.createArtBoard();
+}
+function Ai_SelectArtboard(payload) {
+  return AiArtboard.selectedArtBoard(payload);
+}
+function Ai_DeleteArtboard() {
+  return AiArtboard.deleteArtBoard();
+}
+function Ai_Save() {
+  return AiGeneral.saveFile();
+}
+function Ai_Saveas() {
+  return AiGeneral.saveAsfile();
+}
+function Ai_Export() {
+  return AiGeneral.exportAs();
+}
+function Ai_CreateMask() {
+  return AiGeneral.createMask();
+}
+function Ai_NewWindow() {
+  return AiGeneral.newWindow();
+}
+
+// AFTER EFFECT
+function AF_Settool(payload) {
+  return AeGeneral.setTool(payload);
+}
+function AF_DuplicateLayer() {
+  return AeMoveLayers.duplicateLayer();
+}
+function AF_DelteLayer() {
+  return AeMoveLayers.deleteLayer();
+}
+function AF_ModifyLayerScale(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Scale", payload);
+}
+function AF_ModifyLayerScaleX(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Scale X", payload);
+}
+function AF_ModifyLayerScaleY(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Scale Y", payload);
+}
+function AF_ModifyLayerScaleZ(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Scale Z", payload);
+}
+function AF_ModifyLayerAnchorPointX(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Anchor Point X", payload);
+}
+function AF_ModifyLayerAnchorPointY(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Anchor Point Y", payload);
+}
+function AF_ModifyLayerAnchorPointZ(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Anchor Point Z", payload);
+}
+function AF_ModifyLayerRotateX(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Rotate X", payload);
+}
+function AF_ModifyLayerRotateY(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Rotate Y", payload);
+}
+function AF_ModifyLayerRotateZ(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Rotate Z", payload);
+}
+function AF_ModifyLayerPositionX(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Position X", payload);
+}
+function AF_ModifyLayerPositionY(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Position Y", payload);
+}
+function AF_ModifyLayerPositionZ(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Position Z", payload);
+}
+function AF_ModifyLayerOrientationX(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Orientation X", payload);
+}
+function AF_ModifyLayerOrientationY(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Orientation Y", payload);
+}
+function AF_ModifyLayerOrientationZ(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Orientation Z", payload);
+}
+function AF_ModifyLayerOpacity(payload) {
+  return AeModifyTransform.adjustTransformParameter("ADBE Opacity", payload);
+}
+function AF_ModifyCameraOption(payload, diff) {
+  return AeModifyCamera.modifyCameraOpction(payload, diff);
+}
+function AF_ModifyLightOption(payload, diff) {
+  return AeModifyLight.modifyLightOpction(payload, diff);
+}
+function AF_ToggleLayer(payload) {
+  return AeToggle.layerSwitch(payload);
+}
+function AF_SelectedLayer(payload) {
+  return AeSelctedLayer.selectLayer(payload);
+}
+function AF_MoveLayer(payload) {
+  return AeMoveLayer.startPoint(payload);
+}
+function AF_AddEffects(payload) {
+  return AeAddEffect.addEffectToSelectedLayers(payload);
+}
+function AF_ModifyLumetriColors(payload, diff) {
+  return AeLumetriColor.modifyLumetriColor(payload, diff);
+}
+
+// Indesign
+
+function Id_SetTool(payload) {
+  return IdGeneral.setTool(payload);
+}
+function Id_CreateLayer() {
+  return IdLayer.createLayer();
+}
+function Id_DeleteLayer() {
+  return IdLayer.deleteLayer();
+}
+function Id_LockLayer() {
+  return IdLayer.lockLayer();
+}
+function Id_DuplicateLayer() {
+  return IdLayer.duplicateLayer();
+}
+function Id_VisibleLayer() {
+  return IdLayer.visibleLayer();
+}
+function Id_SelectLayer(payload) {
+  return IdLayer.selectLayer(payload);
+}
+function Id_ModifyTextSize(payload) {
+  return IdText.modifyTextSize(payload);
+}
+function Id_ModifyTextSpacing(payload) {
+  return IdText.modifyTextSpacing(payload);
+}
+function Id_ModifyTextLeading(payload) {
+  return IdText.modifyTextLeading(payload);
+}
+function Id_ZoomInOut(payload) {
+  return IdSpread.zoomInOut(payload);
+}
+function Id_CreateSpread() {
+  return IdSpread.createSpread();
+}
+function Id_ModifyStrokeSize(payload) {
+  return IdObject.modifyStrokeSize(payload);
+}
+function Id_ModifyStrokeTint(payload) {
+  return IdObject.modifyStrokeTint(payload);
+}
+function Id_ModifyStrokeHorizontalScale(payload) {
+  return IdObject.modifyStrokeHorizontalScale(payload);
+}
+function Id_ModifyStrokeVerticalScale(payload) {
+  return IdObject.modifyStrokeVerticalScale(payload);
+}
+
+// premiere pro
+function Pr_ModifyLumetri(payload) {
+  var t = payload.typeKey; // 인덱스 번호
+  var diff = parseInt(payload.payload);
+  var s = t.split("|");
+  var category = s[0];
+  var propsName = s[1];
+  var props = {
+    category: category,
+    propsName: propsName,
+  };
+  return PrLumetri.modifyLumetri(props, parseInt(payload.payload));
+}
+function Pr_ModifyTimeline(payload) {
+  return PrTimeline.modifyTimeline(payload);
+}
+function Pr_ModifyMotion(payload) {
+  var t = payload.typeKey;
+  var s = t.split(",");
+  var props = s[0];
+  var propsValueIndex = s[1];
+  return PrMotion.modifyMotion(props, propsValueIndex, parseInt(payload.payload));
+}
+function Pr_ModifyOpacity(payload) {
+  return PrOpacity.modifyOpacity(0, parseInt(payload.payload));
+}
